@@ -76,3 +76,17 @@ def wage(w_hours):
 
 
 print(wage(4))
+
+
+# if johnny has saved at least $100 by the end of the week
+# he will get extra 10$ or else he will not
+
+def johnny(saved):
+    if saved >= 100:
+        return saved+10
+    else:
+        return saved
+
+
+x = 110
+print("how much johnny saved : ", x, "now he has ", johnny(x))
