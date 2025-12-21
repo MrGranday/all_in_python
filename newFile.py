@@ -14,3 +14,10 @@ if a == "1":
     print("result: ", sum(num, num1))
 if a == "2":
     print("result: ", sub(num, num1))
+
+
+# the if statement
+if 5 == 15/3:
+    print("this was right")
+else:
+    print("this was wrong")
