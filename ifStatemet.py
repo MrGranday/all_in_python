@@ -28,3 +28,19 @@ def compare_to_five(y):
 print(compare_to_five(10))
 print(compare_to_five(1))
 print(compare_to_five(5))
+
+
+# to get the length of the string
+p = "this is osman"
+print(len(p))
+
+# if want to get the index of the string
+print(p[0])
+
+
+# printing the negative index
+print(p[-1])
+
+# if want to print from a specific index to the specific index then
+
+print(p[0:3])
