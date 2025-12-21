@@ -26,3 +26,5 @@ def compare_to_five(y):
 
 
 print(compare_to_five(10))
+print(compare_to_five(1))
+print(compare_to_five(5))
