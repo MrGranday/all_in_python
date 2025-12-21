@@ -63,3 +63,16 @@ def plus_ten(a):
 
 
 plus_ten(100)
+
+
+# using function within the function ]
+
+
+def wage(w_hours):
+    if w_hours == 4:
+        return w_hours*25 + 50
+    else:
+        return w_hours*25
+
+
+print(wage(4))
