@@ -56,7 +56,10 @@ print(simple())
 
 
 def plus_ten(a):
-    return a+10
+    result = a+10
+    print(result)
+    # or we return it
+    return result
 
 
-print(plus_ten(10))
+plus_ten(100)
