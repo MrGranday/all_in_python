@@ -44,3 +44,19 @@ print(p[-1])
 # if want to print from a specific index to the specific index then
 
 print(p[0:3])
+
+
+# the functions
+
+def simple():
+    return "this was simple"
+
+
+print(simple())
+
+
+def plus_ten(a):
+    return a+10
+
+
+print(plus_ten(10))
