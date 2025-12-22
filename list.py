@@ -19,3 +19,13 @@ print(the_list)
 numbers = [1, 2, 3, 4, 5]
 print(numbers)
 print(numbers[3])
+
+
+# if i want to add a new name to the list we use .append() methods
+
+the_list.append('khan')
+print(the_list)
+
+# we can use the .extend[ ] methods
+the_list.extend(['Haroon', 'mustafa'])
+print(the_list)
