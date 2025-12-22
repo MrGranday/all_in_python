@@ -90,3 +90,6 @@ def johnny(saved):
 
 x = 110
 print("how much johnny saved : ", x, "now he has ", johnny(x))
+
+
+# built in Functions in python
