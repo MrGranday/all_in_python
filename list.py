@@ -29,3 +29,29 @@ print(the_list)
 # we can use the .extend[ ] methods
 the_list.extend(['Haroon', 'mustafa'])
 print(the_list)
+
+
+# if we want the  length we use  len() method
+print(len(the_list))
+
+
+# slicing the list
+print(the_list[1:3])
+print(the_list)
+
+
+# Tuples in Python
+
+x = (2, 3, 4, 5)
+
+print(x)
+# we can access the elements also like this
+print(x[0])
+
+
+# we can do the Tuple like this
+y = 4, 5, 6, 7
+print(y)
+
+# and we can do it like this
+a, b, c = 7, 8, 9
