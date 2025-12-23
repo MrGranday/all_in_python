@@ -74,3 +74,16 @@ dic['k4'] = "khan"
 
 # now printing all the elements
 print(dic)
+
+
+# if we say that one person works in dep_1 and three works in dep_2
+# we somehow
+dep_workers = {'dep_1': 'Osman', 'dep_2': ['Omar', 'Ali', 'Ahmad']}
+print(dep_workers)
+
+
+# if we want to print dep_2 only
+print(dep_workers['dep_2'])
+
+# if we want to get the elements just one like this
+print(dep_workers.get('dep_1'))
