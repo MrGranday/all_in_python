@@ -55,3 +55,22 @@ print(y)
 
 # and we can do it like this
 a, b, c = 7, 8, 9
+
+
+# when storing tuples in list
+list_1 = [x, y]
+print(list_1)
+
+
+# Dictionaries  in python
+dic = {'k1': "osman", 'k2': "Ghani", 'k3': "Granday"}
+
+# if we want to print one key
+print(dic['k1'])
+
+# if i want to add another element
+
+dic['k4'] = "khan"
+
+# now printing all the elements
+print(dic)
