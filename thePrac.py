@@ -71,27 +71,27 @@ print(largest)
 # Step 6: Print "Login successful" or "Login failed"
 
 # Step 1: Create a dictionary with username and password
-users = {'osman': 'osman1234', 'ghani': 'ghani1234'}
+# users = {'osman': 'osman1234', 'ghani': 'ghani1234'}
 
 
-def the_users(user_dict):
-    # Step 2 & 3: Ask user for username and password
-    name = input('Enter your name: ')
-    password = input('Enter your password: ')
+# def the_users(user_dict):
+#     # Step 2 & 3: Ask user for username and password
+#     name = input('Enter your name: ')
+#     password = input('Enter your password: ')
 
-    # Step 4: Check if username exists
-    if name in user_dict:
-        # Step 5: Check if password matches
-        if password == user_dict[name]:
-            print('Login successful')
-        else:
-            print('Login failed: Incorrect password')
-    else:
-        print('Login failed: Username does not exist')
+#     # Step 4: Check if username exists
+#     if name in user_dict:
+#         # Step 5: Check if password matches
+#         if password == user_dict[name]:
+#             print('Login successful')
+#         else:
+#             print('Login failed: Incorrect password')
+#     else:
+#         print('Login failed: Username does not exist')
 
 
-# Call the function
-the_users(users)
+# # Call the function
+# the_users(users)
 
 
 # Step 1: Create a list of numbers
@@ -99,3 +99,13 @@ the_users(users)
 # Step 3: Loop through list
 # Step 4: If number % 2 == 0 → increase counter
 # Step 5: Print counter
+
+
+list_of_numbers_to_count = [1, 2, 3, 4, 5, 6, 7, 8,
+                            9, 0, 1, 2, 3, 4, 5, 6,
+                            7, 8, 65, 4, 3, 23, 4, 5]
+counter = 0
+for n in list_of_numbers_to_count:
+    if n % 2 == 0:
+        counter += 1
+print('the even ', counter)
