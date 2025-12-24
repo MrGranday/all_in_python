@@ -33,3 +33,14 @@ def sum_of(list_num):
 
 
 print(sum_of(list_num))
+
+
+# Step 1: Create a list of words
+# Step 2: Use len() function
+# Step 3: Print total number of words
+list_of_words = ['osman', 'ghani', 'granday']
+
+total_words = 0
+for n in list_of_words:
+    total_words += 1
+    print(total_words)
