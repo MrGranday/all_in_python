@@ -109,3 +109,33 @@ for n in list_of_numbers_to_count:
     if n % 2 == 0:
         counter += 1
 print('the even ', counter)
+
+
+# Step 1: Create a dictionary of subject: marks
+# Step 2: Add all marks using loop
+# Step 3: Divide total by number of subjects
+# Step 4: Print average
+
+dict_subjects = {'math': 80, "bio": 78,
+                 'coding': 92, 'computer': 87,
+                 'pashto': 56}
+total_subject_marks = 0
+for n in dict_subjects.values():
+    total_subject_marks = n + total_subject_marks
+avg = total_subject_marks/5
+print(avg)
+
+
+# Step 1: Create a list
+# Step 2: Create empty list
+# Step 3: Loop from last index to first
+# Step 4: Append items to new list
+# Step 5: Print reversed list
+
+
+list_for_reversed = [1, 2, 3, 4, 5, 6, 7, 8]
+list_that_store_reversed_values = []
+for n in list_for_reversed:
+    list_that_store_reversed_values.append(n)
+    list_that_store_reversed_values.reverse()
+print(list_that_store_reversed_values)
